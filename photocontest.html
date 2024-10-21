@@ -12,7 +12,7 @@
         <div class="logo"> <img src="Images/logo.png" alt=""></div>
         <ul>
             
-            <li><a href="Home">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
            <li>
             <div class="dropdown">
                 <a class="dropbtn" href="#">PHOTOS/VIDEOS</a>
@@ -28,5 +28,125 @@
         </ul>
         <div class="Signin"><a class="signin-div" href="SignIn/Up">SignIn/Up</a></div>
     </div>
+    <div class="Hero2">
+        <p>A walk in the nature <br><span>Contests</span></p>
+        <hr>
+        <h2 style="font-size: 20px; color: white;">Contest deadline</h2>
+        <div id="countdown">
+            
+            <div class="day">
+                <h1 id="days"></h1>
+                <p style="font-size: 13px;">days</p>
+            </div>
+            <div class="hour">
+                <h1 id="hours"></h1>
+                <p style="font-size: 13px;">hours</p>
+            </div>
+            <div class="min">
+                <h1 id="mins"></h1>
+                <p style="font-size: 13px;">minutes</p>
+            </div>
+            <div class="sec">
+                <h1 id="secs"></h1>
+                <p style="font-size: 13px;">seconds</p>
+            </div>
+        </div>
+
+        <script>
+            const targetDate = new Date("December 31, 2024 23:59:59").getTime()
+            const countdownFunction = setInterval(function() {
+                const now = new Date().getTime();
+                const distance = targetDate - now;
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                console.log(days);
+               
+                // Display the result in the element with id="countdown"
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("mins").innerHTML = minutes;
+                document.getElementById("secs").innerHTML = seconds;
+                // + minutes + "<p>minutes</> " + seconds + "<p>seconds</p>";
+    
+                // If the countdown is over, display a message
+                if (distance < 0) {
+                    clearInterval(countdownFunction);
+                    document.getElementById("countdown").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </div>
+    <div class="requirements">
+        <div class="favorites">
+            <div class="open">
+                <div class="openContest">
+                    <p>Open Contest</p>
+                </div>
+                <p>Add To Your favorites</p>
+            </div>
+            <div class="timeleft">
+                <p>Award: <span>$2400</span>  Time left: <span>7 Days</span> Participants: <span>118</span> Submissions: <span>280</span></p>
+            </div>
+        </div>
+            <ol class="bulletpoint"   style="background: none;">
+                <h2>Requirements Of The Contest <br></h2>
+                <h3>Picture Should Have</h3>
+                <li style="color: grey; list-style-type: disc;">SnapX Photography is a professional website template with 5 different HTML pages for maximum customizations. This is based on Bootstrap v5.1.3 CSS framework. Please  <br>visit TemplateMo website to see more CSS templates.</li>
+                <li style="color: grey; list-style-type: disc;">You are allowed to 100% freely use this SnapX Template for your commercial websites. You are not allowed to redistribute the template ZIP file on any other Free CSS <br> Template collection websites.</li>
+                <h3>Picture Should Not Have</h3>
+                <li style="color: grey; list-style-type: disc;">We hope this template is very useful for your website development. If you wish to support TemplateMo, you may make a small amount of donation via PayPal.</li>
+                <li style="color: grey; list-style-type: disc;">If you need the PSD source files of this template, please feel free to contact TemplateMo. Our supporters are welcome.</li>
+            </ol>
+            <hr>
+            <h2>Links to Inspire Your Photo</h2>
+        
+        <div class="links">
+            <div class="link1">
+                <div class="jpg">
+                    <p>JPG</p>
+                </div>
+                <div class="trip">
+                    <p>A Trip in The Rain <br> <span>Previous Winner</span></p>
+                </div>
+            </div>
+            <div class="link2">
+                <div class="jpg">
+                    <p>PNG</p>
+                </div>
+                <div class="trip">
+                    <p>A Trip in The jungle<br> <span>Previous Winner</span></p>
+                </div>
+            </div>
+            <div class="link3">
+                <div class="jpg">
+                    <p>PDF</p>
+                </div>
+                <div class="trip">
+                    <p>A Trip in The Rain <br> <span>Previous Winner</span></p>
+                </div>
+            </div>
+            <div class="link4">
+                <div class="jpg">
+                    <p>AI</p>
+                </div>
+                <div class="trip">
+                    <p>A Trip in The Forest <br> <span>Previous Winner</span></p>
+                </div>
+            </div>
+        </div>
+        <a href="http://">Submit Your Photo/Video</a>
+    </div>
+    <div class="blank1"></div>
+    <h2 style="margin-left: 45px;">Other Contests Waiting For You</h2>
+    <div class="mountainPictures">
+        <div class="mp1"></div>
+        <div class="mp2"></div>
+        <div class="mp3"></div>
+        <div class="mp4"></div>
+    </div>
+   
+
 </body>
 </html>

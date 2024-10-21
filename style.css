@@ -680,7 +680,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    
 }
 .Hero p{
     font-size: 60px;
@@ -1221,7 +1221,231 @@ input[type="text"] {
 .dropdown-content a:hover {color: #87CEEB;}
 .dropdown:hover .dropdown-content{display: block;}
 
+.Hero2{
+    height:600px ;
+    width: 100%;
+    background-image: url("Images/heading-bg.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Hero2 p{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.Hero2 p span{
+    color: #87CEEB;
+}
+.Hero2 hr{
+    width: 700px;
+}
+.Hero2 p-6{
+    color: white;
+    text-align: center;
+}
+#countdown {
+    font-family: Arial, sans-serif;
+    /* background-color: aqua; */
+    height: 150px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+    color: #ddd;
+}
+.requirements{
+    height: 850px;
+    width: 1300px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: -50px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+.favorites{
+    height: 100px;
+    width: 1300px;
+    background-color: lightcyan;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.open{
+    height: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.open p{
+    color: lightskyblue;
+    font-size: 18px;
+}
+.openContest{
+    height: 40px;
+    width: 130px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.openContest p{
+    color: white;
+}
+.timeleft{
+    height: 50px;
+    width: 650px;
+}
+.timeleft p{
+    font-size: 18px;
+    color: grey;
+}
+.timeleft p span{
+    font-size: 22px;
+    color: lightskyblue;
 
+}
+.bulletpoint{
+    height: 450px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+ol{
+    line-height: 30px;
+}
+.links{
+    height: 150px;
+    width: 1200px;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.link1{
+    height: 100px;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.jpg{
+    height: 45px;
+    width: 45px;
+    background-color: #ccc;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jpg p{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.trip{
+    height: 80px;
+    width: 150px;
+}
+.trip p{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.trip p span{
+    font-size: 15px;
+    color: grey;
+    font-weight: lighter;
+}
+.link2{
+    height: 100px;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link3{
+    height: 100px;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link4{
+    height: 100px;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.requirements hr{
+    width: 1200px;
+}
+.requirements a{
+    height: 70px;
+    width: 1200px;
+    background: lightskyblue;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.requirements a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.mountainPictures{
+    height: 400px;
+    width: 1300px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mp1{
+    height: 400px;
+    width: 300px;
+    background-color: aquamarine;
+}
+.mp2{
+    height: 400px;
+    width: 300px;
+    background-color: aquamarine;
+}
+.mp3{
+    height: 400px;
+    width: 300px;
+    background-color: aquamarine;
+}
+.mp4{
+    height: 400px;
+    width: 300px;
+    background-color: aquamarine;
+}
 
   
